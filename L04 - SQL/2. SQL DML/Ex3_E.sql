@@ -1,0 +1,1 @@
+UPDATE imagini SET pensiune_id = (SELECT id FROM pensiuni WHERE nume = "Scarisoara") WHERE cale = "006.png";
